@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+p { font-family: Lora }
+a { font-family: Open Sans; color: rgb(100,100,100)}
+h1 { font-family: Open Sans}
+h2 { font-family: Open Sans}
