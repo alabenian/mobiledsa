@@ -208,15 +208,6 @@
   .h-\[200px\] {
     height: 200px;
   }
-  .h-\[250px\] {
-    height: 250px;
-  }
-  .h-\[300px\] {
-    height: 300px;
-  }
-  .h-\[500px\] {
-    height: 500px;
-  }
   .w-\[10\%\] {
     width: 10%;
   }
@@ -244,8 +235,17 @@
   .w-\[170\%\] {
     width: 170%;
   }
+  .columns-1 {
+    columns: 1;
+  }
+  .columns-2 {
+    columns: 2;
+  }
   .columns-4 {
     columns: 4;
+  }
+  .columns-8 {
+    columns: 8;
   }
   .rounded-sm {
     border-radius: var(--radius-sm);
@@ -313,9 +313,6 @@
   }
   .text-\[rgba\(231\,59\,102\,1\)\] {
     color: rgba(231,59,102,1);
-  }
-  .text-black {
-    color: var(--color-black);
   }
   .text-white {
     color: var(--color-white);
